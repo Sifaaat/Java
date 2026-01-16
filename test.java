@@ -19,7 +19,21 @@ public class Test {
                                    
         System.out.println("Name: "+teacher1.name);
         System.out.println("Gender: "+ teacher1.gender);
-        System.out.println("Phone: "+ teacher1.phone);        
+        System.out.println("Phone: "+ teacher1.phone);   
+        
+        
+         Teacher teacher2;    //object declare
+           
+           teacher2 = new Teacher();  //create object
+           
+           teacher2.name= "Ahmed ";
+                   teacher2.gender="Male";
+                           teacher2.phone=122288255;
+                                   
+                                   
+        System.out.println("Name: "+teacher2.name);
+        System.out.println("Gender: "+ teacher2.gender);
+        System.out.println("Phone: "+ teacher2.phone); 
                                    }
 }
   
